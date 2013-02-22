@@ -73,7 +73,7 @@ public class Pesquisa {
     }
     public static void imprimePesquisa(){
         for(Fclinica obj : Pesquisa){
-            System.out.print("Resultados da pesquisa"+"\n"+obj.getNome()+" "+obj.getAltura()+" "+obj.getPeso()+"\n");
+            System.out.print(obj.getNome()+" "+obj.getAltura()+" "+obj.getPeso()+"\n");
         }
     }
 }

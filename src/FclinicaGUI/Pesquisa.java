@@ -162,36 +162,49 @@ public class Pesquisa extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Controle.Pesquisa.buscaNome(BuscaNome.getText());
         Controle.Pesquisa.imprimePesquisa();
+        System.out.println("Resultados da pesquisa:");
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         Controle.Pesquisa.buscaAltura(Integer.parseInt(BuscaAltura.getText()));
         Controle.Pesquisa.imprimePesquisa();
+                System.out.println("Resultados da pesquisa:");
+
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         Controle.Pesquisa.buscaPeso(Integer.parseInt(BuscaPeso.getText()));
         Controle.Pesquisa.imprimePesquisa();
+                System.out.println("Resultados da pesquisa:");
+
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         Controle.Pesquisa.buscaNomeAltura(BuscaNome.getText(), Integer.parseInt(BuscaAltura.getText()));
         Controle.Pesquisa.imprimePesquisa();
+                System.out.println("Resultados da pesquisa:");
+
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
         Controle.Pesquisa.buscaNomePeso(BuscaNome.getText(), Integer.parseInt(BuscaPeso.getText()));
         Controle.Pesquisa.imprimePesquisa();
+                System.out.println("Resultados da pesquisa:");
+
     }//GEN-LAST:event_jButton6ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         Controle.Pesquisa.buscaAlturaPeso(Integer.parseInt(BuscaAltura.getText()), Integer.parseInt(BuscaPeso.getText()));
         Controle.Pesquisa.imprimePesquisa();
+                System.out.println("Resultados da pesquisa:");
+
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         Controle.Pesquisa.buscaNomePesoAltura(BuscaNome.getText(), Integer.parseInt(BuscaPeso.getText()), Integer.parseInt(BuscaAltura.getText()));
         Controle.Pesquisa.imprimePesquisa();
+                System.out.println("Resultados da pesquisa:");
+
     }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
