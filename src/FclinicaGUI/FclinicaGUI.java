@@ -606,11 +606,8 @@ public class FclinicaGUI extends javax.swing.JFrame {
     }//GEN-LAST:event_debugActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        Controle.Pesquisa.buscaNome(Fpesquisa.getText());
-        for(Fclinica obj : Controle.Pesquisa.Pesquisa){
-            System.out.println(obj.getNome());
-            System.out.println(obj.getPeso());
-        }
+        Pesquisa busca = new Pesquisa();
+        busca.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
